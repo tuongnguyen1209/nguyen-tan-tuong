@@ -1,5 +1,14 @@
+import CurrencyConverter from './components/currencyConverter';
+import AppLayout from './layout/appLayout';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <AppLayout>
+        <CurrencyConverter />
+      </AppLayout>
+    </>
+  );
 }
 
 export default App;
